@@ -1,0 +1,14 @@
+import java.util.*;		//util only contains hashMap
+public class Main
+{
+  public static void main (String[]args)
+  {
+    HashMap map1 = new HashMap ();
+    HashMap map2 = new HashMap ();
+      map1.put (1, "E-BOX");
+      map1.put (2, "learning and assesment");
+      map1.put (3, "platform");
+      map2.putAll (map1);
+      System.out.println (map2);
+  }
+}
